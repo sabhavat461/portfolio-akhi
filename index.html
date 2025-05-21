@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabahavat Akhila| Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Feather Icons (alternative to Lucide) -->
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <!-- Navbar -->
+   <div class="bg-container">
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="#home" class="logo">Portfolio<span class="text-secondary">.</span></a>
+        
+        <div class="nav-links desktop-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <i data-feather="menu" class="menu-icon"></i>
+          <i data-feather="x" class="close-icon hidden"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile menu -->
+    <div class="mobile-nav hidden">
+      <div class="container">
+        <div class="mobile-nav-links">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-subtitle">👋 Hello, I'm</p>
+          <h1 class="hero-title">Sabhavat Akhila</h1>
+          <h2 class="hero-heading"><span class="text-primary">Frontend Developer</span></h2>
+          <p class="hero-description">
+            I create beautiful, responsive websites with modern technologies to deliver exceptional user experiences.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary">Download Resume</button>
+            <a href="#contact" class="btn btn-outline">Let's Talk</a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/sabhavat461" target="_blank" rel="noreferrer" class="social-link">
+              <i data-feather="github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="social-link">
+              <i data-feather="linkedin"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noreferrer" class="social-link">
+              <i data-feather="twitter"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="profile-image-container">
+            <div class="profile-background"></div>
+            <div class="profile-background-inner"></div>
+            <div class="profile-photo-container">
+              <img 
+                src="https://res.cloudinary.com/dgcnq6taz/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1747741449/portfolio-akhi_hwvbki.jpg" 
+                alt="Sabhavat Akhila" 
+                class="profile-photo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <a href="#about" class="scroll-link">
+          <span>Scroll Down</span>
+          <i data-feather="arrow-down" class="bounce"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-container"></div>
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">About Me</h2>
+        <div class="title-line reveal"></div>
+        <p class="section-subtitle reveal">
+          Here's a bit more information about me and my professional journey.
+        </p>
+      </div>
+
+      <div class="about-content">
+        <div class="about-image reveal">
+          <div class="image-wrapper">
+            <div class="image-bg"></div>
+            <img 
+              src="https://res.cloudinary.com/dgcnq6taz/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1747741449/portfolio-akhi_hwvbki.jpg"
+              alt="About me"
+              class="about-photo"
+            />
+          </div>
+        </div>
+
+        <div class="about-text">
+          <h3 class="about-heading reveal">
+            Frontend Developer 
+          </h3>
+          <p class="about-description reveal">
+            I’m a passionate frontend web developer with a strong foundation in HTML, CSS, and JavaScript. 
+            I enjoy building clean, responsive websites that offer smooth user experiences. In addition to 
+            frontend development, I have a basic understanding of Python, which I use to strengthen my problem-solving and 
+            coding logic.
+
+          
+          </p>
+          <p class="about-description reveal">
+            I'm always eager to learn and grow as a developer. Whether it’s improving my current skills or exploring new tools and 
+           technologies, I’m committed to continuous learning and building impactful digital experiences.
+          </p>
+
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">My Skills</h2>
+        <div class="title-line reveal"></div>
+        <p class="section-subtitle reveal">
+          These are my core technical skills and competencies
+        </p>
+      </div>
+
+      <div class="skills-cards">
+        <!-- Frontend Development Skills Card -->
+         <div class="about-container">
+        <div class="skill-card reveal">
+          <div class="card-header">
+            <div class="card-icon">
+              <i data-feather="code"></i>
+            </div>
+            <h3 class="card-title">Frontend Development</h3>
+            <p class="card-subtitle">Creating responsive and interactive user interfaces</p>
+          </div>
+          <div class="card-content">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML/CSS</span>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React.js</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">TypeScript</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+
+     
+        
+
+        <!-- Other Skills Card -->
+        <div class="skill-card reveal">
+          <div class="card-header">
+            <div class="card-icon">
+              <i data-feather="pen-tool"></i>
+            </div>
+            <h3 class="card-title">Other Skills</h3>
+            <p class="card-subtitle">Additional tools and technologies in my toolbox</p>
+          </div>
+          <div class="card-content">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git & GitHub</span>
+                <span class="skill-percentage">50%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90%"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Responsive Design</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="tech-stack reveal">
+        <div class="tech-grid">
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>HT</span>
+            </div>
+            <span class="tech-name">HTML5</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>CS</span>
+            </div>
+            <span class="tech-name">CSS3</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>JS</span>
+            </div>
+            <span class="tech-name">JavaScript</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>TS</span>
+            </div>
+            <span class="tech-name">TypeScript</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>Re</span>
+            </div>
+            <span class="tech-name">React</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>TW</span>
+            </div>
+            <span class="tech-name">Tailwind CSS</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>Gt</span>
+            </div>
+            <span class="tech-name">Git</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>Fi</span>
+            </div>
+            <span class="tech-name">Figma</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>No</span>
+            </div>
+            <span class="tech-name">Node.js</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>Nx</span>
+            </div>
+            <span class="tech-name">Next.js</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>Sa</span>
+            </div>
+            <span class="tech-name">Sass</span>
+          </div>
+          <div class="tech-item">
+            <div class="tech-icon">
+              <span>We</span>
+            </div>
+            <span class="tech-name">Webpack</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">My Projects</h2>
+        <div class="title-line reveal"></div>
+        <p class="section-subtitle reveal">
+          Check out some of my recent work
+        </p>
+        
+        <div class="filter-buttons reveal">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          
+          
+        </div>
+      </div>
+
+      <div class="projects-grid ">
+          
+        </div>
+        <div class="d-flex flex-row justify-content-start">
+        <!-- Project 5 -->
+        <div class="project-card reveal" data-category="design">
+          <div class="project-image">
+            <img 
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1974&auto=format&fit=crop"
+              alt="Portfolio Website Template" 
+            />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Portfolio Website Template</h3>
+            <p class="project-description">Customizable portfolio template for developers and designers.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline">
+                <i data-feather="github"></i>
+                Code
+              </a>
+              <a href="https://example.com" target="_blank" rel="noreferrer" class="btn btn-sm btn-primary">
+                <i data-feather="external-link"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+          <div class="project-card reveal" data-category="design">
+          <div class="project-image">
+            <img 
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1974&auto=format&fit=crop"
+              alt="Portfolio Website Template" 
+            />
+          </div>
+          <div class="project-details">
+            <h3 class="project-title">Portfolio Website Template</h3>
+            <p class="project-description">Customizable portfolio template for developers and designers.</p>
+            <div class="project-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" rel="noreferrer" class="btn btn-sm btn-outline">
+                <i data-feather="github"></i>
+                Code
+              </a>
+              <a href="https://example.com" target="_blank" rel="noreferrer" class="btn btn-sm btn-primary">
+                <i data-feather="external-link"></i>
+                Live Demo
+              </a>
+            </div>
+          </div>
+          
+        </div>
+
+      
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title reveal">Get In Touch</h2>
+        <div class="title-line reveal"></div>
+        <p class="section-subtitle reveal">
+          Have a project in mind or want to discuss an opportunity? Send me a message!
+        </p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <div class="info-heading reveal">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out through any of the following methods. I'm always open to discussing new projects, opportunities, or partnerships.</p>
+          </div>
+          
+          <div class="contact-items">
+            <div class="contact-item reveal">
+              <div class="contact-icon">
+                <i data-feather="mail"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <a href="mailto:hello@example.com">sabhavatakhila532@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item reveal">
+              <div class="contact-icon">
+                <i data-feather="phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <a href="tel:+15551234567">+91-6301102773</a>
+              </div>
+            </div>
+            
+            <div class="contact-item reveal">
+              <div class="contact-icon">
+                <i data-feather="map-pin"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <a href="https://maps.google.com" target="_blank">Hyderabad</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-container">
+
+        <div class="contact-form-container reveal">
+          <form id="contactForm" class="contact-form">
+            <h3>Send Me a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#home" class="logo">Portfolio<span class="text-secondary">.</span></a>
+          <p>Building beautiful digital experiences that make an impact.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="social-links">
+            <a href="https://github.com/sabhavat461" target="_blank" rel="noreferrer">
+              <i data-feather="github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+              <i data-feather="linkedin"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noreferrer">
+              <i data-feather="twitter"></i>
+            </a>
+          </div>
+          <p>&copy; <span id="currentYear"></span> Akhila. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
